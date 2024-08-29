@@ -20,31 +20,26 @@ export function Navbar() {
           </Link>
 
           <div className={styles.navMiddle}>
-            <Link href="/buy" className={styles.link}>
-              Buy
-            </Link>
-            <Link href="/sell" className={styles.link}>
-              Sell
-            </Link>
-            <Link href="/rent" className={styles.link}>
-              Rent
-            </Link>
+            <Link href="/buy">Buy</Link>
+            <Link href="/sell">Sell</Link>
+            <Link href="/rent">Rent</Link>
           </div>
         </div>
 
         <div className={styles.navRight}>
           <div className={styles.navConnect}>
-            <ConnectWallet theme="dark" btnTitle={"Enter BEVM Ordinals"} 
-            welcomeScreen={{
-              img: {
-                src: "https://pbs.twimg.com/profile_images/1668751547285504002/Fn4GgdKT_400x400.jpg",
-                width: 150,
-                height: 150,
-              },
-              title:
-                "Your Entry to the world of BEVM",
-              subtitle: "Connect Wallet to enter 🎉",
-            }}
+            <ConnectWallet
+              theme="dark"
+              btnTitle={"Enter BEVM Ordinals"}
+              welcomeScreen={{
+                img: {
+                  src: "https://pbs.twimg.com/profile_images/1668751547285504002/Fn4GgdKT_400x400.jpg",
+                  width: 150,
+                  height: 150,
+                },
+                title: "Your Entry to the world of BEVM",
+                subtitle: "Connect Wallet to enter 🎉",
+              }}
             />
           </div>
           {address && (
