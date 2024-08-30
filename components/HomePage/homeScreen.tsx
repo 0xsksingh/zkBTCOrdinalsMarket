@@ -20,12 +20,12 @@ const HomeScreen = () => {
           <li>Seamlessly Trade, Collect, and explore unique ordinals.</li>
           <li>Access to Comprehensive transaction history</li>
           <li>Immerse yourself in the future of Ordinals and</li>
-          <li>unlock true potential of digital ownership</li>
+          <li>unlock true potential of digital ownership on zkBTC</li>
         </ul>
 
         <div className="flex gap-1 items-start mt-[30px]">
           <Button variant="default" size="lg">
-            Get for free
+            Get started
           </Button>
           <Button variant="outline" size="lg">
             Learn More

@@ -11,8 +11,8 @@ export default function Buy() {
 
   return (
     <Container maxWidth="lg">
-      <h1>Rentable NFTs</h1>
-      <p>Browse which NFTs are available for rent from the collection.</p>
+      <h1>Rentable Ordinals</h1>
+      <p>Browse which Ordinals are available for rent from the collection.</p>
       <RentNFTGrid
         data={data}
         isLoading={isLoading}

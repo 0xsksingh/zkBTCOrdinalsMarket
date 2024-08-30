@@ -30,14 +30,14 @@ export function Navbar() {
           <div className={styles.navConnect}>
             <ConnectWallet
               theme="dark"
-              btnTitle={"Enter BEVM Ordinals"}
+              btnTitle={"Enter zkBTC Ordinals"}
               welcomeScreen={{
                 img: {
-                  src: "https://pbs.twimg.com/profile_images/1668751547285504002/Fn4GgdKT_400x400.jpg",
-                  width: 150,
+                  src: "https://cdn.prod.website-files.com/66692907ab54c2d95c498bcc/66a7bca38174b5e8d14c8140_Logo.png",
+                  width: 300,
                   height: 150,
                 },
-                title: "Your Entry to the world of BEVM",
+                title: "Your Entry to the world of Ordinals on zkBTC",
                 subtitle: "Connect Wallet to enter 🎉",
               }}
             />

@@ -3,7 +3,6 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import { Navbar } from "../components/Navbar/Navbar";
 import NextNProgress from "nextjs-progressbar";
 import "../styles/globals.css";
-import { BevmTestnet } from "@thirdweb-dev/chains";
 
 function MyApp({ Component, pageProps }: AppProps) {
 
@@ -12,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     "chainId": 19236265,
     "explorers": [
       {
-        "name": "bevm testnet scan",
+        "name": "zkbtc testnet scan",
         "url": "https://devilmorallyelephant-blockscout.eu-north-2.gateway.fm/",
         "standard": "none"
       }
@@ -25,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       "format": "png"
     },
     "infoURL": "https://zkbtc.com",
-    "name": "BEVM Testnet",
+    "name": "ZKBTC Testnet",
     "nativeCurrency": {
       "name": "BTC",
       "symbol": "BTC",

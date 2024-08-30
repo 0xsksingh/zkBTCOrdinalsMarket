@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             </div>
             <div className={styles.heroAssetFrame}>
               <Image
-                src="/redbiker.gif"
+                src="/ocm.gif"
                 width={450}
                 height={540}
                 alt="Hero asset, NFT marketplace"
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
                 className={styles.heroAsset}
               />
               <Image
-                src="/robohorse.gif"
+                src="/ocm2.gif"
                 width={600}
                 height={500}
                 alt="Prince"
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                 className={styles.gradient}
               />
               <Image
-                src="/zebra.gif"
+                src="/ocm3.gif"
                 width={450}
                 height={540}
                 alt="zebra"
@@ -59,12 +59,12 @@ const Home: NextPage = () => {
               <div className={styles.heroBody}>
                 <h1 className={styles.heroTitle}>
                   <span className={styles.heroTitleGradient}>
-                    Ordinal&apos;s Fi
+                    zkBTC Ordinal&apos;s Market
                   </span>
                   <br />
                 </h1>
                 <h2>
-                  Trade Unique Premium Ordinals on Bitcoin L2s &apos;s Premium
+                  Trade Unique Ordinals using Runes and BRC20 on zkBTC &apos;s Premium Ordinal
                   Marketplace 🌐
                 </h2>
                 <br />
@@ -72,12 +72,6 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="text-center mx-56">
-            <p className={styles.heroSubtitle}>
-              Seamlessly trade, collect, and explore unique Ordinals while
-              having access to comprehensive transaction history. Immerse
-              yourself in the future of nfts and unlock the true potential of
-              digital ownership.
-            </p>
             <div className={styles.heroCtaContainer}>
               <Link className={styles.heroCta} href="/buy">
                 Get Started
